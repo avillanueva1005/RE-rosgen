@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxw SYSTEM "grass-gxw.dtd">
+<gxw>
+    <session>
+        <database>/Volumes/memory/NEW docs/OpenSourceGIS/avillanueva1005.github.io/RE-rosgen/data/scratch</database>
+        <location>JohnDay</location>
+        <mapset>PERMANENT</mapset>
+    </session>
+    <layer_manager dim="783,23,646,600">
+    </layer_manager>
+    <display name="Display 1" render="1" mode="7" showCompExtent="1" alignExtent="1" constrainRes="0" showStatusbar="1" showToolbars="1" dim="0,25,1205,775" extent="379308.480920,4938772.495753,379946.493244,4939123.057803,-500.500000,500.500000" tbres="1.000000" viewMode="2d" >
+        <layer type="vector" name="reachBuffer@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>reachBuffer@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>0:0:0:255</value>
+                </parameter>
+                <parameter name="fill_color">
+                    <value>none</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="CHaMP_Data_MFJD@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>CHaMP_Data_MFJD@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="demShade@PERMANENT" checked="1" opacity="1.000000">
+            <selected />
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>demShade@PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="slope@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>slope@PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="DEM@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>DEM@PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="banks1@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>banks1@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+            <vdigit>
+            </vdigit>
+        </layer>
+        <layer type="vector" name="valley3@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>valley3@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="valley2@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>valley2@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="valley1@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>valley1@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="banks3@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>banks3@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="vector" name="banks2@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.vect">
+                <parameter name="map">
+                    <value>banks2@PERMANENT</value>
+                </parameter>
+                <parameter name="color">
+                    <value>black</value>
+                </parameter>
+                <parameter name="fcolor">
+                    <value>200:200:200</value>
+                </parameter>
+                <parameter name="width">
+                    <value>0</value>
+                </parameter>
+                <parameter name="icon">
+                    <value>basic/x</value>
+                </parameter>
+                <parameter name="size">
+                    <value>5</value>
+                </parameter>
+                <parameter name="type">
+                    <value>point,line,area,face</value>
+                </parameter>
+            </task>
+        </layer>
+        <layer type="raster" name="JohnDayWShed@PERMANENT" checked="1" opacity="1.000000">
+            <task name="d.rast">
+                <parameter name="map">
+                    <value>JohnDayWShed@PERMANENT</value>
+                </parameter>
+            </task>
+        </layer>
+    </display>
+</gxw>
